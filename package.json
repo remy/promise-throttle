@@ -1,0 +1,27 @@
+{
+  "name": "promise-throttle",
+  "version": "1.0.0",
+  "description": "Throttles promises being executed, i.e. to allow no more than 10 at a time",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.1"
+  },
+  "devDependencies": {
+    "es6-promise": "^2.3.0",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.1"
+  },
+  "scripts": {
+    "test": "tape test/*.test.js | tap-spec"
+  },
+  "keywords": [
+    "throttle",
+    "promise"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT"
+}
